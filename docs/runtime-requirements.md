@@ -2,16 +2,16 @@
 
 ## Node.js
 
-- Minimum: Node.js 18 (LTS)
+- Minimum: Node.js 20 (LTS)
 - Recommended: Node.js 20+ (LTS)
-- Tested: Node.js 18, 20, 22, 24
+- Tested: Node.js 20, 22, 24
 
-Uses native global `fetch` (Node.js 18+).
+Uses native global etch (Node.js 20+).
 
 ## Browser
 
 - Chrome 67+, Firefox 69+, Safari 14+, Edge 79+
-- Browser-specific build via `browser` export condition.
+- Browser-specific build via rowser export condition.
 
 ## Deno
 
@@ -23,9 +23,8 @@ Uses native global `fetch` (Node.js 18+).
 
 ## Polyfills
 
-For environments without `fetch`:
+For environments without etch:
 
-```typescript
+`	ypescript
 import { Polyfill } from 'whatwg-fetch';
 globalThis.fetch = Polyfill;
-```
